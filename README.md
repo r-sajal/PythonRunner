@@ -14,10 +14,9 @@ If you are showing some output on cmd just put an input at last line of code. <b
 <b>&</b> --> first performs the task on left and then the task on right <br>
 <b>python3</b> --> global variable for python <br>
 <b>-x</b> --> version
-<pre><b>"%~f0"</b> --> % - Specifier<br>
-                f0 - to get the complete path of the file (python in our case)<br>
-                ~ - to remove double quotes if any <br>
- </pre>
+<b>"%~f0"</b> --> % - Specifier<br>
+&nbsp;&nbsp;f0 - to get the complete path of the file (python in our case)<br>
+ &nbsp;&nbsp; ~ - to remove double quotes if any <br>
 <b>goto</b> - to go to the defined label<br>
 <b>:eof</b> - end of file (predefined label)<br>
 
