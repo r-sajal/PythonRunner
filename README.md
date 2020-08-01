@@ -20,6 +20,7 @@ python3 --> global variable for python <br>
 goto - to go to the defined label<br>
 :eof - end of file (predefined label)<br>
 
-# what we are doing is first printing python3 on cmd to run then getting the complete path for the file.<br>
+# what we are doing is<br> 
+first printing python3 on cmd to run then getting the complete path for the file.<br>
 if the file is not found terminate the program (eof)<br>
 else run the script under Python<br>
