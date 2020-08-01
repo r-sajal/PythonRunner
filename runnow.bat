@@ -1,18 +1,14 @@
 echo on & python3 -x "%~f0" %* & goto :eof
 
-# ==========================================================
-# one way to place python script in a batch file
-# place python code below (no need for .py file)
-# ==========================================================
+# ========================================================== #
+# place python code below 
+# Save File as bat file 
+# ========================================================== #
+# Example Code --> 
 
-
-import pyshorteners
-
-link = input("\nEnter Your Link : ")
-shortener = pyshorteners.Shortener()
-
-x = shortener.tinyurl.short(link)
-print()
+import pyshortener
+x = input()
 print(x)
-print()
-x = input("type to cancel ")
+y = input()
+
+# if You want to pause for result just type some extra inputs as this code wont wait for you to see output in cmd
