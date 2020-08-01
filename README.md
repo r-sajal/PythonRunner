@@ -13,10 +13,10 @@ If you are showing some output on cmd just put an input at last line of code. <b
 <b>on</b> --> to show what  are we outputting <br>
 <b>&</b> --> first performs the task on left and then the task on right <br>
 <b>python3</b> --> global variable for python <br>
-<b>-x</b> --> version
+<b>-x</b> --> version<br>
 <b>"%~f0"</b> --> % - Specifier<br>
-&nbsp;&nbsp;f0 - to get the complete path of the file (python in our case)<br>
- &nbsp;&nbsp; ~ - to remove double quotes if any <br>
+&nbsp;&nbsp;&nbsp;&nbsp;f0 - to get the complete path of the file (python in our case)<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ~ - to remove double quotes if any <br>
 <b>goto</b> - to go to the defined label<br>
 <b>:eof</b> - end of file (predefined label)<br>
 
